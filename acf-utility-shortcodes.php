@@ -16,3 +16,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'ACF_UTIL_PATH', plugin_dir_path( __FILE__ ) );
 
 require_once ACF_UTIL_PATH . 'includes/class-acf-shortcodes.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/acf-text-shortcode.php';
+
